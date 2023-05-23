@@ -1,0 +1,7 @@
+what we have covered
+Login-signup using wallet and username or email
+Integrating wallet into the project 
+minting nft using smart-contract 
+Displaying nft stored in ipfs
+Buying/selling of nft from user 
+

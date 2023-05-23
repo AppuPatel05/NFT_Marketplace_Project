@@ -1,0 +1,297 @@
+
+.Footer {
+  color: 'white';
+  width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .footer-right-div {
+    position: relative;
+  
+    text-align: left;
+    width: 35%;
+  }
+  
+  .footer-left-div {
+    position: relative;
+    left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 2vw;
+    text-align: left;
+  }
+  .copyright_text{
+
+    display:'block';
+    font-size:1vw;
+  }
+  
+  .footer-center-div {
+    position: relative;
+    text-align: left;
+  }
+  
+  .footer-heading {
+    margin-bottom: 0;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  
+  .footer-text {
+    font-size: 1vw;
+    cursor: pointer;
+  }
+  .footer_input {
+    position: relative;
+  }
+  .footer_input_tag {
+    outline: none;
+    padding: 1vw;
+    background-color: white;
+    border-radius: 1vw;
+    height: 3.5vw;
+    width: 17vw;
+  }
+  .footer_button_tag {
+    color: white;
+    background-color: rgba(162, 89, 255, 1);
+    border-color: rgba(162, 89, 255, 1);
+    border-radius: 1vw;
+    height: 3.5vw;
+    width: 10vw;
+    position: relative;
+    right: 1.5vw;
+    font-size: 1vw
+  }
+
+
+
+  .icon_list {
+    margin-top: 3vh;
+    display: inline-block;
+    height: 5vw;
+    width: 5vw;
+    
+  }
+  .icon_list .bi-twitter {
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+    width: 3.5vw;
+    height: 3.5vw;
+    display: inline-flex;
+    background-color: rgba(204, 204, 204, 1);
+    color: black;
+    transition-duration: 0.5s;
+  }
+  .icon_list .bi-twitter:hover {
+    background-color: rgba(29, 161, 242, 1);
+    color: white;
+  }
+  .icon_list .bi-facebook {
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+    width: 3.5vw;
+    height: 3.5vw;
+    display: inline-flex;
+    background-color: rgba(204, 204, 204, 1);
+    color: black;
+    transition-duration: 0.5s;
+  }
+  .icon_list .bi-facebook:hover {
+    background-color: rgba(59, 89, 152, 1);
+    color: white;
+  }
+  .icon_list .bi-youtube {
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+    width: 3.5vw;
+    height: 3.5vw;
+    display: inline-flex;
+    background-color: rgba(204, 204, 204, 1);
+    color: black;
+    transition-duration: 0.5s;
+  }
+  .icon_list .bi-youtube:hover {
+    background-color: rgba(204, 25, 30, 1);
+    color: white;
+  }
+  .icon_list .bi-linkedin {
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+    width: 3.5vw;
+    height: 3.5vw;
+    display: inline-flex;
+    background-color: rgba(204, 204, 204, 1);
+    color: black;
+    transition-duration: 0.5s;
+  }
+  .icon_list .bi-linkedin:hover {
+    background-color: rgba(59, 89, 152, 1);
+    color: white;
+  }
+  .copyright_text_mobile{
+    line-height: 4vh;
+        position: relative;
+    left: 10vw;
+    bottom:5vh;
+    margin-right: 10vw;
+    text-align: left;
+    margin-bottom: 2vh;
+  }
+  #footer-home{
+    margin-top: 2vh;
+    transition-duration: 0.5s;
+  }
+  #footer-home:hover{
+    color:rgba(224, 37, 206, 1);
+  }
+  #footer-create{
+    transition-duration: 0.5s;
+  }
+  #footer-create:hover{
+    color:rgba(224, 37, 206, 1);
+  }
+  #footer-login{
+    transition-duration: 0.5s;
+  }
+  #footer-login:hover{
+    color:rgba(224, 37, 206, 1);
+  }
+  #footer-signup{
+    transition-duration: 0.5s;
+  }
+  #footer-signup:hover{
+    color:rgba(224, 37, 206, 1);
+  }
+
+  @media only screen and (min-width: 300px) and (max-width: 500px){
+    .copyright_text_mobile{
+
+      display:'block';
+      font-size:10vw;
+    }
+    .Footer{
+      height: fit-content;
+      flex-direction: column;
+      width: 90vw;
+    }
+    .footer-left-div {
+      line-height: 4vh;
+    }
+  .footer-center-div {
+        position: relative;
+    left: 10vw;
+    margin-right: 10vw;
+    text-align: left;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  .footer-right-div {
+    width: 90%;
+    position: relative;
+    left: 10vw;
+    margin-right: 10vw;
+    text-align: left;
+  }
+   .footer-text {
+    position: relative;
+    display:inline;
+    margin-right: 2vw;
+  }
+  .copyright_text{
+    font-size: 3vw;
+  }
+  .footer-heading {
+    color:rgba(162, 89, 255, 1);
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    font-size: 5vw;
+  }
+  .footer-text {
+    font-size: 4vw;
+  }
+  .footer_input {
+    position: relative;
+    margin-top: 3vh;
+  }
+ .footer_input_tag {
+    position: relative;
+    outline: none;
+    padding: 1vw;
+    background-color: white;
+    border-radius: 1vw;
+    height: 10vw;
+    width: 50vw;
+    top:0.1vh;
+  }
+
+
+  
+  .footer_button_tag {
+    color: white;
+    background-color: rgba(162, 89, 255, 1);
+    border-color: rgba(162, 89, 255, 1);
+    border-radius: 1vw;
+    height:10vw;
+    width: 20vw;
+    position: relative;
+    right: 1.5vw;
+    font-size: 3vw
+  }
+
+  .icon_list {
+    display: inline-block;
+    height: 6vw;
+    width: 6vw;
+    margin-top: 0;
+    margin-right: 12vw;
+  }
+  .icon_list .bi-twitter {
+    font-size: 5vw !important;
+    width: 8.5vw !important;
+    height: 8.5vw !important;
+    
+  }
+  .icon_list .bi-facebook {
+    font-size: 5vw !important;
+    width: 8.5vw !important;
+    height: 8.5vw !important;
+  }
+  .icon_list .bi-youtube {
+    font-size: 5vw !important;
+    width: 8.5vw !important;
+    height: 8.5vw !important;
+    
+  }
+  .icon_list .bi-linkedin {
+    font-size: 5vw !important;
+    width: 8.5vw !important;
+    height: 8.5vw !important;
+  }
+ 
+  .copyright_text_mobile{
+    display: block;
+    line-height: 4vh;
+        position: relative;
+        top: 4vh;
+    left: 10vw;
+    margin-right: 10vw;
+    text-align: left;
+    font-size: 4vw;
+    margin-bottom: 8vh;
+  }
+  }

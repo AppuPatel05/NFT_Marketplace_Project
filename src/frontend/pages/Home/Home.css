@@ -1,0 +1,628 @@
+/*  Home component*/
+.main_page_outer {
+  color: white;
+  height: fit-content;
+}
+.main_page {
+  color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+.main_page .home_left {
+  text-align: left;
+  position: relative;
+  margin-top: 0.7vw;
+  margin-left: 7.4%;
+  width: 50%;
+}
+
+.main_page .home_right {
+  position: relative;
+  width: 40%;
+  left: 60%;
+  bottom: 80%;
+}
+
+.main_page .home_right .home_img {
+  width: 39vw;
+  bottom: 100%;
+}
+
+.main_page .home_left .home_body_text_medium {
+  font-size: 4vh;
+  font-weight: bolder;
+  width: 100%;
+}
+
+.main_page .home_left .home_body_text_title {
+  font-weight: bolder;
+  font-size: 8vh;
+  width: 100%;
+}
+
+.main_page .home_left .home_body_text_small {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  color: rgba(255, 255, 255, 0.75);
+  width: 100%;
+  font-size: 3vh;
+}
+.main_page .home_left .home_body_text_title .border_nft {
+  position: relative;
+  top: 1.5vw;
+  left: 1.5vw;
+
+  display: inline-block;
+  border: 0.4vw solid #840487;
+  width: 15vw;
+  padding: 1.5vw;
+  border-radius: 50%;
+  font-size: 4vw;
+  background: -webkit-linear-gradient(
+    97.67deg,
+    #2a08b3 -34.23%,
+    #eb72ff 113.75%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main_page .home_left .home_body_button {
+  background-color: rgba(162, 89, 255, 1);
+  color: white;
+  border-color: rgba(162, 89, 255, 1);
+  width: 15vw;
+  height: 8vh;
+  border-radius: 1.5vw;
+  margin-top: 0.2vw;
+  margin-bottom: 0.5vw;
+  font-size: 2vh;
+}
+
+.main_page .home_left .ul_list {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  position: relative;
+  right: 1vw;
+}
+
+.main_page .home_left .ul_list .li_home_list {
+  margin-right: 5vw;
+}
+
+.main_page .home_left .ul_list .li_home_list .home_body_number {
+  font-size: 2vw;
+  font-weight: bold;
+}
+.li_body_text {
+  font-size: 1.5vw;
+  width: 100%;
+}
+
+.nft_item_box {
+  position: relative;
+  margin: 4vh;
+}
+
+.nft_item_box .nft_item_h1 {
+  font-weight: bolder;
+  font-size: 7vh;
+}
+
+.nft_item_box .nft_item_p {
+  font-size: 3vh;
+  font-stretch: ultra-expanded;
+}
+
+.nft_item_box .nft_item_select_category {
+  position: relative;
+}
+.nft_item_box .nft_item_select_category .nft_item_select_category_ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+}
+.nft_item_box
+  .nft_item_select_category
+  .nft_item_select_category_ul
+  .nft_item_select_category_li {
+  margin: 30px;
+  width: 150px;
+}
+.nft_item_box
+  .nft_item_select_category
+  .nft_item_select_category_ul
+  .nft_item_select_category_li
+  .nft_item_select_category_button {
+  padding: 10px;
+  width: 200px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+#All:hover {
+  background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+}
+#All:focus {
+  background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+}
+#Art:hover {
+  background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+}
+#Art:focus {
+  background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+}
+#Gaming:hover {
+  background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+}
+#Gaming:focus {
+  background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+}
+.module_border_wrap {
+  min-width: 100%;
+  max-width: 250px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 1px;
+  position: relative;
+  height: fit-content;
+  border-width: 2px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  border-image: linear-gradient(
+      138.34deg,
+      rgba(224, 37, 206, 0.7) -11.36%,
+      rgba(74, 237, 82, 0.7) 51.55%,
+      rgba(189, 36, 230, 0.7) 113.16%
+    )
+    1;
+}
+
+.module_border_wrap .seperation {
+  position: relative;
+  height: 15vh;
+  background: linear-gradient(
+    138.84deg,
+    rgba(255, 255, 255, 0.132) -6.39%,
+    rgba(143, 143, 143, 0.063) 112.17%
+  );
+  color: white;
+}
+
+.module_border_wrap .seperation .seperation_ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  height: 15vh;
+  width: 90vw;
+}
+.module_border_wrap
+  .seperation
+  .seperation_ul
+  .seperation_li
+  .seperation_li_img {
+  position: relative;
+  top: 2.7vh;
+  left: 1vw;
+  height: 8.6vh;
+  width: 5vw;
+}
+.module_border_wrap .seperation .seperation_ul .seperation_li .seperation_li_p {
+  position: relative;
+  bottom: 3vh;
+  left: 7vw;
+  font-size: 1.2vw;
+}
+.module_border_wrap
+  .seperation
+  .seperation_ul
+  .seperation_li
+  .seperation_li_img_last {
+  position: relative;
+  top: 2.7vh;
+  height: 8.6vh;
+  width: 5vw;
+  right: 9vw;
+}
+
+.module_border_wrap
+  .seperation
+  .seperation_ul
+  .seperation_li
+  .seperation_li_p_last {
+  position: relative;
+  bottom: 3.2vh;
+  right: 2vw;
+  font-size: 1.2vw;
+}
+
+.module_border_wrap .seperation .what_is_eth_ {
+  width: 90vw;
+  position: relative;
+}
+.what_is_eth_gif {
+  width: 20vw;
+  position: relative;
+  float: left;
+  bottom: 0vh;
+}
+.what_is_eth_gif img {
+  height: 20vh;
+}
+.what_is_eth_text {
+  font-weight: bolder;
+}
+.what_is_eth_text .what_is_eth_text_header {
+  top: 2vh;
+  position: relative;
+  text-align: center;
+  font-size: 4vh;
+  line-height: 5.5vh;
+}
+.what_is_eth_text .what_is_eth_text_body {
+  text-align: left;
+  margin-top: 3vh;
+  font-size: 2.5vh;
+}
+
+.how_it_work_card_list {
+  margin: 7%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.how_it_work_card_list .outer_how_it_work_card_item {
+  background: linear-gradient(90deg, #8b00ae 4.71%, #0011ae 59.61%);
+  padding: 2px;
+  border-radius: 20px;
+  width: 28%;
+  height: 51vh;
+}
+
+.how_it_work_card_list .outer_how_it_work_card_item .how_it_work_card_item {
+  background-color: rgba(20, 17, 24, 1);
+  height: 50.5vh;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  transition-duration: 1s;
+}
+.how_it_work_card_list .outer_how_it_work_card_item:hover {
+  background: rgba(68, 148, 247, 1);
+  padding: 2px;
+  border-radius: 20px;
+  width: 28%;
+  height: 50.5vh;
+}
+.how_it_work_card_list
+  .outer_how_it_work_card_item
+  .how_it_work_card_item:hover {
+  background: rgba(68, 148, 247, 1);
+  height: 50.5vh;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.how_it_work_card_list
+  .outer_how_it_work_card_item
+  .how_it_work_card_item
+  .how_it_work_img {
+  padding-top: 40px;
+  height: 12vh;
+}
+
+.how_it_work_card_list
+  .outer_how_it_work_card_item
+  .how_it_work_card_item
+  .how_it_work_card_step_heading {
+  padding: 10px;
+  font-style: "Segoe UI";
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  font-size: 3vh;
+}
+.how_it_work_card_list
+  .outer_how_it_work_card_item
+  .how_it_work_card_item
+  .how_it_work_card_heading {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-style: "Segoe UI";
+  color: rgba(242, 242, 242, 1);
+  font-size: 3vh;
+}
+.how_it_work_card_list
+  .outer_how_it_work_card_item
+  .how_it_work_card_item
+  .how_it_work_card_text {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-style: "Segoe UI";
+  color: rgba(242, 242, 242, 1);
+  font-size: 2vh;
+}
+
+.login_loading_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+.nft-card-list{ 
+  color: black;
+  margin-left:4vw;
+ }
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  height: 60vh;
+  width: 25vw;
+}
+.card-text-username {
+  float: left;
+  color: rgba(255, 255, 255, 0.5);
+}
+.card-text-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  position: relative;
+  bottom: 14vh;
+  margin-bottom: 0;
+  width: 100%;
+
+  text-align: right;
+}
+.card-text-price .card-text-price-p{
+  color: rgba(255, 255, 255, 0.5);
+  display: inline;
+}
+.card-title {
+  position: relative;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px 0px 20px 0px;
+  width: 50%;
+  text-align: left;
+}
+
+/*
+
+Mobile css
+
+*/
+.nft_item_select_category_mobile {
+  display: none;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .how_it_work_card_list {
+    flex-direction: column;
+  }
+  .how_it_work_card_list .outer_how_it_work_card_item {
+    display: flex;
+    padding: 2px;
+    border-radius: 20px;
+    width: 83.5%;
+    height: 33vh;
+    margin-top: 2vh;
+    margin-left: 3vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .how_it_work_card_list .outer_how_it_work_card_item .how_it_work_card_item {
+    background-color: rgba(20, 17, 24, 1);
+    height: 33vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    transition-duration: 1s;
+  }
+  .how_it_work_card_list .outer_how_it_work_card_item:hover {
+    background: rgba(68, 148, 247, 1);
+    padding: 2px;
+    border-radius: 20px;
+    width: 83.5%;
+    height: 33vh;
+  }
+
+  .how_it_work_card_list
+    .outer_how_it_work_card_item
+    .how_it_work_card_item:hover {
+    background: rgba(68, 148, 247, 1);
+    height: 33vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  .how_it_work_card_list
+    .outer_how_it_work_card_item
+    .how_it_work_card_item
+    .how_it_work_img {
+    padding-top: 20px;
+    height: 9vh;
+  }
+
+  .how_it_work_card_list
+    .outer_how_it_work_card_item
+    .how_it_work_card_item
+    .how_it_work_card_step_heading {
+    padding: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-style: "Segoe UI";
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    font-size: 2vh;
+  }
+  .how_it_work_card_list
+    .outer_how_it_work_card_item
+    .how_it_work_card_item
+    .how_it_work_card_heading {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: "Segoe UI";
+    color: rgba(242, 242, 242, 1);
+    font-size: 2vh;
+  }
+  .how_it_work_card_list
+    .outer_how_it_work_card_item
+    .how_it_work_card_item
+    .how_it_work_card_text {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: "Segoe UI";
+    color: rgba(242, 242, 242, 1);
+    font-size: 1.5vh;
+  }
+  .module_border_wrap {
+    display: none;
+  }
+  .nft_item_select_category {
+    display: none;
+  }
+  .nft_item_select_category_mobile {
+    display: block;
+  }
+
+  .home_right {
+    display: none;
+  }
+  .main_page_outer {
+    color: white;
+    height: fit-content;
+    width: fit-content;
+  }
+  .main_page {
+    color: white;
+    height: 90vh;
+    width: 90vw;
+  }
+
+  .main_page .home_left {
+    text-align: left;
+    position: relative;
+    margin-top: 0.7vw;
+    margin-left: 7.4%;
+    width: 90vw;
+  }
+
+  .main_page .home_left .home_body_text_medium {
+    font-size: 4vh;
+    font-weight: bolder;
+    width: 90vw;
+  }
+
+  .main_page .home_left .home_body_text_title {
+    font-weight: bolder;
+    font-size: 6vh;
+    width: 90vw;
+  }
+
+  .main_page .home_left .home_body_text_small {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    color: rgba(255, 255, 255, 0.75);
+    width: 90%;
+    font-size: 3vh;
+  }
+  .main_page .home_left .home_body_text_title .border_nft {
+    position: relative;
+    top: 1.5vw;
+    left: 1.5vw;
+
+    display: inline-block;
+    border: 2vw solid #840487;
+    width: 25vw;
+    padding: 1.5vw;
+    border-radius: 50%;
+    font-size: 6vw;
+
+    background: -webkit-linear-gradient(
+      97.67deg,
+      #2a08b3 -34.23%,
+      #eb72ff 113.75%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .main_page .home_left .home_body_button {
+    background-color: rgba(162, 89, 255, 1);
+    color: white;
+    border-color: rgba(162, 89, 255, 1);
+    width: 55vw;
+    height: 8vh;
+    border-radius: 1.5vw;
+    margin-top: 0.2vw;
+    margin-bottom: 0.5vw;
+    font-size: 2vh;
+  }
+
+  .main_page .home_left .ul_list {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    position: relative;
+    right: 5vw;
+    margin-top: 3vh;
+  }
+
+  .main_page .home_left .ul_list .li_home_list {
+    margin-right: 5vw;
+  }
+
+  .main_page .home_left .ul_list .li_home_list .home_body_number {
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .li_body_text {
+    font-size: 3vw;
+    width: 100%;
+  }
+  .card {
+    background: rgba(255, 255, 255, 0.1);
+    height: 55vh;
+    width: 60vw;
+  }
+  .card-text-username {
+    display: inline;
+    float: none;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .card-text-price {
+    display: inline;
+  flex-direction: column;
+  justify-content: left;
+  position: relative;
+  bottom: 5vh;
+  margin-bottom: 0;
+  width: 100%;
+
+  text-align: left;
+  
+  }
+  .card-text-price .card-text-price-p{
+    color: rgba(255, 255, 255, 0.5);
+    display: inline;
+  }
+  .card-title {
+  text-align: center;
+    position: relative;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5vw 0px 10vw 0px;
+    width: 100%;
+  }
+  .nft-card-list{ 
+    margin-left:0vw;
+   }
+}

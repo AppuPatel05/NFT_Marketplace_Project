@@ -1,0 +1,649 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  cursor: default;
+  color: white;
+  font-family: Work Sans;
+  background-image: url("../Assets/Backgrounds.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*CSS For Sign-up Form*/
+.signup_form {
+  position: relative;
+  height: fit-content;
+  
+  top: 60px;
+}
+.signup_form .form_tag {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.signup_form .form_tag .form_left {
+  float: left;
+  position: relative;
+  height: 80vh;
+  left: 8%;
+}
+.signup_form .form_tag .form_left .img_form {
+  height: 80vh;
+  width: 40vw;
+  border: radius 10px;
+}
+.signup_form .form_tag .form_right {
+  float: right;
+  position: relative;
+  height: 80vh;
+  right: 10vw;
+}
+.signup_form .form_tag .form_right .form_heading {
+  font-size: 6vh;
+  color: white;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.signup_form .form_tag .form_right .form_text {
+  font-family: Work Sans;
+  color: white;
+  line-height: 2;
+  font-weight: 900;
+  font-size: 3.5vh;
+}
+.signup_form .form_tag .form_right .form_element .icon_input_container {
+  position: relative;
+  height: 10vh;
+}
+
+.signup_form
+  .form_tag
+  .form_right
+  .form_element
+  .icon_input_container
+  .form_icon_svg_span_signup {
+  position: absolute;
+  left: 1.5vw ;
+  font-size: 3vh;
+  color: black;
+  height: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 5vh;
+}
+.signup_form
+  .form_tag
+  .form_right
+  .form_element
+  .icon_input_container
+  .form_icon_svg_span_login {
+    position: absolute;
+    left: 2.4vw;
+    font-size: 3vh;
+    color: black;
+    height: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 5vh;
+    
+}
+.signup_form
+  .form_tag
+  .form_right
+  .form_element
+  .icon_input_container
+  .form_icon_svg_span_validation_message {
+  position: absolute;
+  bottom: 30px;
+  left: 15%;
+
+  font-size: 5vw;
+  color: black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup_form
+  .form_tag
+  .form_right
+  .form_element
+  .icon_input_container
+  .form_input_tag {
+  outline: none;
+  color: rgba(43, 43, 43, 1);
+  background-color: white;
+  height: 5vh;
+  border-radius: 2vh;
+  border-style: solid;
+  height: 6vh;
+  width: 30vw;
+  padding: 0.5vh;
+  padding-left: 6vh;
+  margin-top: 1vh;
+}
+.signup_form
+.form_tag
+.form_right
+.form_element
+.icon_input_container
+.form_input_tag::placeholder {
+font-size: 2vh;
+}
+
+
+.signup_form
+  .form_tag
+  .form_right
+  .form_element
+  .icon_input_container
+  .form_input_tag_validation_message {
+  color: rgba(43, 43, 43, 1);
+  background-color: white;
+
+  border-radius: 20px;
+  border-style: solid;
+
+  width: 80%;
+  padding: 5px;
+  padding-left: 45px;
+  margin-top: 20px;
+}
+.validation_message01{
+  color: red;
+  width:30vw;
+  font-size:2vh;
+}
+.icon_input_container {
+  position: relative;
+}
+
+.icon_input_container .validation_message {
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+  background-color: aliceblue;
+  z-index: 2;
+}
+.signup_form .form_tag .form_right .form_element .form_submit_button {
+  background-color: rgba(162, 89, 255, 1);
+  color: white;
+
+  border-radius: 20px;
+  border-color: rgba(162, 89, 255, 1);
+  border-style: solid;
+  height: 7vh;
+  font-size: 2vh;
+  width: 15vw;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.signup_form .form_tag .form_right .form_element .form_text_link {
+  cursor: pointer;
+  font-family: Work Sans;
+  color: white;
+  line-height: 1;
+  margin-top: 15px;
+  font-size: 3vh;
+}
+.signup_form .form_tag .form_right .form_element .form_text_link:hover {
+  text-decoration: underline;
+}
+
+/*Create Form*/
+.imgFolderUpload{
+  color: rgba(255, 210, 51, 1);
+  font-size: 21vh;
+}
+
+.create_nft_form_outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.create_nft_form_outer .create_nft_form_inner_div {
+  width: 83.5%;
+  padding: 20px;
+}
+.create_nft_form_outer .create_nft_form_inner_div .create_form_image_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 40vh;
+  background: white;
+  border-radius: 20px;
+}
+
+.create_nft_form_outer
+  .create_nft_form_inner_div
+  .create_form_image_div
+  .create_form_image_div_file_upload_text {
+  color: rgba(0, 0, 0, 1);
+}
+
+.create_nft_form_outer .create_nft_form_inner_div .create_form_ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 32px;
+  margin-top: 30px;
+}
+.create_nft_form_outer
+  .create_nft_form_inner_div
+  .create_form_ul
+  .create_form_ul_li {
+  position: relative;
+  margin-right: 35%;
+}
+
+  .message_alert{
+    color:red;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+.create_nft_form_outer
+  .create_nft_form_inner_div
+  .create_form_ul
+  .create_form_ul_li
+  .create_form_ul_li_text {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.create_nft_form_outer
+  .create_nft_form_inner_div
+  .create_form_ul
+  .create_form_ul_li
+  .create_form_ul_li_select {
+  width: 100px;
+  margin-right: 100px;
+}
+.create_nft_form_outer
+  .create_nft_form_inner_div
+  .create_form_ul
+  .create_form_ul_li
+  .create_form_ul_li_input {
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  outline: none;
+  border-color: white;
+  padding: 10px;
+}
+
+.create_nft_form_outer .create_nft_form_inner_div .create_form_description_div {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+.create_form_description_text{
+  position: relative;
+}
+.create_nft_form_outer
+  .create_nft_form_inner_div
+  .create_form_description_div
+  .create_form_description_text {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.create_nft_form_outer
+  .create_nft_form_inner_div
+  .create_form_description_div
+  .create_form_description_input {
+    height: 20vh;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border-color: white;
+    padding: 10px;
+     vertical-align: top;
+}
+.create_form_description_button{
+    margin-top: 30px;
+    background-color: rgba(162, 89, 255, 1);
+    float: right
+}
+
+/*CSS For Forget password*/
+.forget_password_form {
+  position: relative;
+  top: 60px;
+}
+.forget_password_form .form_tag {
+  position: relative;
+  height: 50vh;
+}
+.forget_password_form .form_tag .form_text {
+  font-family: Work Sans;
+  color: red;
+  line-height: 2;
+  font-weight: 900;
+  font-size: medium;
+}
+.forget_password_form .form_tag .form_element .icon_input_container {
+  position: relative;
+  
+}
+
+.forget_password_form
+  .form_tag
+  .form_element
+  .icon_input_container
+  .bi-envelope {
+  position: relative;
+  top: 5px;
+  left: 40px;
+
+  font-size: 25px;
+  color: black;
+}
+.forget_password_form
+  .form_tag
+  .form_element
+  .icon_input_container
+  .form_input_tag {
+  outline: none;
+  color: rgba(43, 43, 43, 1);
+  background-color: white;
+
+  border-radius: 20px;
+  border-style: solid;
+  width: 80%;
+  padding: 5px;
+  padding-left: 45px;
+  margin-top: 10px;
+}
+.forget_password_form .form_tag .form_element .form_submit_button {
+  background-color: rgba(162, 89, 255, 1);
+  color: white;
+
+  border-radius: 20px;
+  border-color: rgba(162, 89, 255, 1);
+  border-style: solid;
+
+  width: 50%;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/*CSS For Change_password*/
+.change_password_component .form_text {
+  font-family: Work Sans;
+  color: white;
+  line-height: 2;
+  font-weight: 900;
+  font-size: medium;
+}
+.change_password_component .form_tag {
+  position: relative;
+  height: 30vh;
+}
+.change_password_component .form_tag .icon_input_container {
+  position: relative;
+
+}
+.change_password_component
+  .form_tag
+  .icon_input_container
+  .form_icon_svg_span_forget {
+  position: absolute;
+  top: 5px;
+  left: 12%;
+
+  font-size: 25px;
+  color: black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.change_password_component .form_tag .icon_input_container .form_input_tag {
+  outline: none;
+  color: rgba(43, 43, 43, 1);
+  background-color: white;
+  border-radius: 20px;
+  border-style: solid;
+  width: 80%;
+  padding: 5px;
+  padding-left: 45px;
+  margin-top: 10px;
+}
+.change_password_component .form_tag .form_submit_button {
+  background-color: rgba(162, 89, 255, 1);
+  color: white;
+
+  border-radius: 20px;
+  border-color: rgba(162, 89, 255, 1);
+  border-style: solid;
+
+  width: 50%;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/* CSS For create form */
+.create-form-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 70%;
+  margin-left: 0;
+  color: white;
+  font-weight: 500;
+}
+
+/*CSS For Footer*/
+.spinner_upper{ 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  min-height: 80vh;
+  color:'white';
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+  .spinner_upper{ 
+    min-height: 50vh;
+  }
+ .img_form{
+  display: none;
+ }
+ 
+ .signup_form {
+  position: relative;
+  height: 107vh;
+  
+}
+.signup_form .form_tag {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.signup_form .form_tag .form_left {
+  display: none;
+}
+.signup_form .form_tag .form_left .img_form {
+  display: none;
+}
+.signup_form .form_tag .form_right {
+  position: relative;
+  right: 0.5vw;
+  height: 80vh;
+}
+.signup_form .form_tag .form_right .form_heading {
+  font-size: 6vh;
+  color: white;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.signup_form .form_tag .form_right .form_text {
+  font-family: Work Sans;
+  color: white;
+  line-height: 2;
+  font-weight: 900;
+  font-size: 3.5vh;
+}
+.signup_form .form_tag .form_right .form_element .icon_input_container {
+  position: relative;
+  height: 10vh;
+}
+
+.signup_form
+  .form_tag
+  .form_right
+  .form_element
+  .icon_input_container
+  .form_icon_svg_span_signup {
+  position: absolute;
+  left:7vw ;
+  font-size: 3vh;
+  color: black;
+  height: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 5vh;
+}
+.signup_form
+  .form_tag
+  .form_right
+  .form_element
+  .icon_input_container
+  .form_icon_svg_span_login {
+    position: absolute;
+    left: 7.5vw;
+    font-size: 3vh;
+    color: black;
+    height: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 5vh;
+    
+}
+.signup_form
+  .form_tag
+  .form_right
+  .form_element
+  .icon_input_container
+  .form_icon_svg_span_validation_message {
+  position: absolute;
+  bottom: 30px;
+  left: 15%;
+
+  font-size: 5vw;
+  color: black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup_form
+  .form_tag
+  .form_right
+  .form_element
+  .icon_input_container
+  .form_input_tag {
+  outline: none;
+  color: rgba(43, 43, 43, 1);
+  background-color: white;
+  height: 5vh;
+  border-radius: 2vh;
+  border-style: solid;
+  height: 6vh;
+  width: 90vw;
+  padding: 0.5vh;
+  padding-left: 6vh;
+  margin-top: 1vh;
+}
+.signup_form
+.form_tag
+.form_right
+.form_element
+.icon_input_container
+.form_input_tag::placeholder {
+font-size: 2vh;
+}
+
+
+.signup_form
+  .form_tag
+  .form_right
+  .form_element
+  .icon_input_container
+  .form_input_tag_validation_message {
+  color: rgba(43, 43, 43, 1);
+  background-color: white;
+
+  border-radius: 20px;
+  border-style: solid;
+
+  width: 80%;
+  padding: 5px;
+  padding-left: 45px;
+  margin-top: 20px;
+}
+.validation_message01{
+  color: red;
+  width:100vw;
+  font-size:2vh;
+
+}
+.icon_input_container {
+  position: relative;
+
+
+  
+}
+
+.icon_input_container .validation_message {
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+  background-color: aliceblue;
+  z-index: 2;
+}
+.signup_form .form_tag .form_right .form_element .form_submit_button {
+  background-color: rgba(162, 89, 255, 1);
+  color: white;
+
+  border-radius: 20px;
+  border-color: rgba(162, 89, 255, 1);
+  border-style: solid;
+  height: 7vh;
+  font-size: 2vh;
+  width: 40vw;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.signup_form .form_tag .form_right .form_element .form_text_link {
+  cursor: pointer;
+  font-family: Work Sans;
+  color: white;
+  line-height: 1;
+  margin-top: 15px;
+  font-size: 3vh;
+}
+.signup_form .form_tag .form_right .form_element .form_text_link:hover {
+  text-decoration: underline;
+}
+}

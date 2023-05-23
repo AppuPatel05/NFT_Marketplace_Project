@@ -1,0 +1,170 @@
+
+/*CSS For Navbar component*/
+
+.navbar{
+  height: 20vh;
+  position: relative;
+}
+.container{
+position: relative;
+  max-width: 100%;
+}
+.nav_title {
+  background: -webkit-linear-gradient(
+    90.33deg,
+    #523bff -22.38%,
+    #ff00f6 94.76%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  font-size: 5vw;
+  position: relative;
+  left:5.5vw
+}
+.nav-link-items {
+  left: 5vw;
+  position: relative;
+  font-weight: 1000;
+  color: white;
+  margin: 1vw;
+  cursor: pointer;
+  transition-duration: 1s;
+  font-size: 2vw;
+}
+
+.nav-link-items:hover {
+  
+  color: rgba(224, 37, 206, 1);
+}
+
+.nav-link-items-clicked {
+  position: relative;
+  left: 5vw;
+  font-size: 2vw;
+  font-weight: 1000;
+  color: rgba(224, 37, 206, 1);
+  margin: 1vw;
+  cursor: pointer;
+}
+
+.nav-button-item {
+  background: transparent;
+  border-radius: 20vw;
+  border-color: rgba(224, 37, 206, 1);
+  color: white;
+  width: 10vw;
+  padding: 10px;
+  margin-right: 1vw;
+  font-size: 1.2vw;
+  transition-duration: 2s;
+  height: 7vh;
+}
+
+.nav-button-item:hover {
+  background: rgba(224, 37, 206, 1);
+  color: white;
+  border-color: rgba(224, 37, 206, 1);
+}
+
+.nav-button-item-clicked {
+  height: 7vh;
+  background: rgba(224, 37, 206, 1);
+  border-radius: 20vw;
+  border-color: rgba(224, 37, 206, 1);
+  color: white;
+  width: 10vw;
+  padding: 10px;
+  font-size: 1.2vw;
+  margin-right: 1vw;
+  transition-duration: 2s;
+}
+.nav_search_data {
+  position: relative;
+  right: 10px;
+  top: 8px;
+}
+.nav_search_data .nav_search_button {
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+  font-size: 3vh;
+}
+.nav_search_data .nav_search_button .nav_search_icon_i_span {
+  right: 20px;
+  bottom: 0.9vh;
+  position: absolute;
+  font-size: 2vw;
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav_search_element {
+  position: relative;
+  width: 22vw;
+  border-color: rgba(224, 37, 206, 1);
+  background-color: rgba(162, 89, 255, 1);
+  border-width: 3px;
+  border-radius: 20px;
+  padding: 0.5vw;
+  border-style: solid;
+  margin-right: 10px;
+  height: 6vh;
+}
+.nav_search_element .nav_search_input {
+  padding:0.5vw;
+  position: relative;
+  bottom:1vw;
+}
+.nav_search_element .nav_search_input .bi-search{
+  font-size: 1.5vw;
+  padding: 10px;
+}
+.nav_search_element .nav_search_input .nav_search_input_tag {
+  background: transparent;
+  border-color: transparent;
+  color: white;
+  outline: none;
+  height: 5vh;
+}
+.nav_search_element .nav_search_input .nav_search_input_tag::placeholder {
+  font-size: 4vh;
+}
+
+
+.navbar-brand{
+  height: 100%;
+}
+.navbar-brand img{ 
+  height: 10vh;
+}
+.bi-x-lg{
+  font-size: 3vh;
+}
+
+#left_signup{
+  display: none;
+}
+#left_signin{
+  display: none;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px){
+  .navbar{
+    height: 35vh;
+    position: relative;
+}
+.left_nav{
+  display: none;
+}
+#left_signup{
+  display: block;
+}
+#left_signin{
+  display: block;
+}
+.nav_title {
+  left:0
+}
+}

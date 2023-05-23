@@ -1,0 +1,211 @@
+.userProfile_outer {
+  position: relative;
+  width: 100%;
+  height: min-content;
+}
+.userProfile_outer .userprofile_back_profile_image {
+  position: relative;
+  width: 100%;
+}
+
+.userProfile_outer .userProfile_photo {
+  position: relative;
+  height: 20vh;
+  width: 10%;
+  left: 44%;
+  bottom: 50px;
+}
+.userProfile_outer .userProfile_button {
+  margin-top: 3vh;
+  position: relative;
+  height: 3vh;
+  width: 10%;
+  left: 44%;
+  bottom: 50px;
+}
+.userProfile_outer .userProfile_photo .userProfile_photo_img {
+  border-radius: 10px;
+  position: relative;
+  height: 20vh;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 2vh;
+}
+.bi-file-arrow-up {
+  color: white;
+  position: relative;
+  font-size: 100px;
+}
+
+.userProfile_button .nav-button-item {
+  position: relative;
+  right: 3vw;
+  background: transparent;
+  border-radius: 20px;
+  border-color: rgba(224, 37, 206, 1);
+  color: white;
+  width: 16vw;
+  padding: 10px;
+  margin-right: 2vw;
+  margin-bottom: 2vw;
+  font-size: 1.2vw;
+  transition-duration: 2s;
+  height: 7vh;
+}
+
+.nav-button-item:hover {
+  background: rgba(224, 37, 206, 1);
+  color: white;
+  border-color: rgba(224, 37, 206, 1);
+}
+
+.userProfile_data_main_div {
+  position: relative;
+  height: 70vh;
+  width: 100vw;
+}
+.userProfile_data_main_div .userProfile_data_left_div {
+  float: left;
+  width: 50vw;
+}
+.userProfile_data_main_div .userProfile_data_right_div {
+  float: right;
+  width: 50vw;
+}
+
+.userProfile_data_left_inner {
+  text-align: left;
+}
+.userProfile_data_right_inner {
+  text-align: left;
+}
+.userprofile_data_username_p {
+    font-size: 10vh;
+    margin-left:7vw ;
+}
+.userProfile_data_ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  margin-left: 10vh;
+  margin-top:0;
+  margin-bottom: 2vh;
+}
+.userProfile_data_ul .userProfile_data_ul_li {
+  margin-right: 10vh;
+}
+.userProfile_data_ul .userProfile_data_ul_li .userProfile_data_ul_p {
+  font-size:3.5vh;
+}
+.userProfile_data_ul_p_text {
+  color: rgba(255, 255, 255, 1);
+}
+.userProfile_data_p_heading {
+  margin-left: 7vw;
+  font-size: 4vh;
+  color: rgba(133, 133, 132, 1);
+}
+.userProfile_data_p {
+  margin-left: 7vw;
+  font-size: 2vh;
+}
+.icon_list_outer {
+  margin-left: 6.8vw;
+}
+.icon_list {
+  display: inline-block;
+  height: 5vw;
+  width: 5vw;
+}
+
+.icon_list .bi-twitter {
+  border-radius: 50%;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-items: center;
+  width: 2.5vw;
+  height: 2.5vw;
+  display: inline-flex;
+  background-color: rgba(204, 204, 204, 1);
+  color: black;
+  transition-duration: 0.5s;
+}
+.icon_list .bi-twitter:hover {
+  background-color: rgba(29, 161, 242, 1);
+  color: white;
+}
+.icon_list .bi-facebook {
+  border-radius: 50%;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-items: center;
+  width: 2.5vw;
+  height: 2.5vw;
+  display: inline-flex;
+  background-color: rgba(204, 204, 204, 1);
+  color: black;
+  transition-duration: 0.5s;
+}
+.icon_list .bi-facebook:hover {
+  background-color: rgba(59, 89, 152, 1);
+  color: white;
+}
+.icon_list .bi-youtube {
+  border-radius: 50%;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-items: center;
+  width: 2.5vw;
+  height: 2.5vw;
+  display: inline-flex;
+  background-color: rgba(204, 204, 204, 1);
+  color: black;
+  transition-duration: 0.5s;
+}
+.icon_list .bi-youtube:hover {
+  background-color: rgba(204, 25, 30, 1);
+  color: white;
+}
+.icon_list .bi-linkedin {
+  border-radius: 50%;
+  font-size: 1.5vw;
+  justify-content: center;
+  align-items: center;
+  width: 2.5vw;
+  height: 2.5vw;
+  display: inline-flex;
+  background-color: rgba(204, 204, 204, 1);
+  color: black;
+  transition-duration: 0.5s;
+}
+.icon_list .bi-linkedin:hover {
+  background-color: rgba(59, 89, 152, 1);
+  color: white;
+}
+
+.userProfile_data_right_button{
+    font-size: 2.5vh;
+    margin-top: 4vh;
+    margin-left:7vw ;
+    background-color:rgba(162, 89, 255, 1);
+    color: white;
+    border-radius: 10px;
+    padding: 1vh;
+    width: 15vw;
+    height: 9vh;
+    border:1px solid rgba(162, 89, 255, 1);
+ 
+
+}
+
+.data_h2{
+  margin-top: 4vh;
+}
+.loading_div{
+  height: 40vh;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
